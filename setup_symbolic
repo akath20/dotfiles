@@ -1,0 +1,5 @@
+#!/bin/bash
+
+ln -sfv "$PWD/.zshrc" ~/.zshrc && source ~/.zshrc
+ln -sfv "$PWD/.vimrc" ~/.vimrc 
+ln -sfv "$PWD/.tmux.conf" ~/.tmux.conf && tmux source-file ~/.tmux.conf
